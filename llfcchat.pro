@@ -10,6 +10,7 @@ CONFIG += c++11
 RC_ICONS = icon.ico
 DESTDIR = ./bin
 SOURCES += \
+    clickedlabel.cpp \
     global.cpp \
     httpmgr.cpp \
     logindialog.cpp \
@@ -19,6 +20,7 @@ SOURCES += \
     timerbtn.cpp
 
 HEADERS += \
+    clickedlabel.h \
     global.h \
     httpmgr.h \
     logindialog.h \
