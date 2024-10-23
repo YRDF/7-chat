@@ -64,4 +64,11 @@ enum ClickLbState{
 
 extern QString gate_url_prefix;
 
+struct ServerInfo{
+    QString Host;
+    QString Port;
+    QString Token;
+    int Uid;
+};
+
 #endif // GLOBAL_H
