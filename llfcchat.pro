@@ -11,10 +11,14 @@ RC_ICONS = icon.ico
 DESTDIR = ./bin
 SOURCES += \
     chatdialog.cpp \
+    chatuserlist.cpp \
+    chatuserwid.cpp \
     clickedbtn.cpp \
     clickedlabel.cpp \
+    customizeedit.cpp \
     global.cpp \
     httpmgr.cpp \
+    listitembase.cpp \
     logindialog.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -26,10 +30,14 @@ SOURCES += \
 
 HEADERS += \
     chatdialog.h \
+    chatuserlist.h \
+    chatuserwid.h \
     clickedbtn.h \
     clickedlabel.h \
+    customizeedit.h \
     global.h \
     httpmgr.h \
+    listitembase.h \
     logindialog.h \
     mainwindow.h \
     registerdialog.h \
@@ -41,6 +49,7 @@ HEADERS += \
 
 FORMS += \
     chatdialog.ui \
+    chatuserwid.ui \
     logindialog.ui \
     mainwindow.ui \
     registerdialog.ui \
