@@ -39,5 +39,6 @@
         <file>res/unvisible_hover.png</file>
         <file>res/visible.png</file>
         <file>res/visible_hover.png</file>
+        <file>res/touch_fish.gif</file>
     </qresource>
 </RCC>
