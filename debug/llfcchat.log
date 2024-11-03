@@ -1,0 +1,100 @@
+﻿  Generate moc_predefs.h
+   Qt/MSBuild: 3.3.0.13
+  Reading Qt configuration (E:/QT_lmt/222/5.12.12/msvc2017/bin/qmake)
+   Qt: 5.12.12
+  adduseritem.cpp
+  applyfriend.cpp
+  applyfrienditem.cpp
+  applyfriendlist.cpp
+  applyfriendpage.cpp
+  bubbleframe.cpp
+  chatdialog.cpp
+  chatitembase.cpp
+F:\bilibilillfc\llfcchat\applyfriend.cpp(61,22): warning C4018: “<”: 有符号/无符号不匹配
+F:\bilibilillfc\llfcchat\applyfriend.cpp(96,105): warning C4100: “text_height”: 未引用的形参
+F:\bilibilillfc\llfcchat\applyfriend.cpp(160,22): warning C4018: “<”: 有符号/无符号不匹配
+F:\bilibilillfc\llfcchat\applyfriendpage.cpp(55,47): warning C4100: “event”: 未引用的形参
+  chatpage.cpp
+  chatuserlist.cpp
+  chatuserwid.cpp
+  chatview.cpp
+  clickedbtn.cpp
+  clickedlabel.cpp
+  clickedoncelabel.cpp
+  contactuserlist.cpp
+F:\bilibilillfc\llfcchat\chatview.cpp(51,41): warning C4100: “item”: 未引用的形参
+F:\bilibilillfc\llfcchat\chatview.cpp(56,57): warning C4100: “item”: 未引用的形参
+F:\bilibilillfc\llfcchat\chatview.cpp(56,40): warning C4100: “before”: 未引用的形参
+F:\bilibilillfc\llfcchat\chatview.cpp(78,40): warning C4100: “event”: 未引用的形参
+F:\bilibilillfc\llfcchat\chatview.cpp(86,47): warning C4100: “max”: 未引用的形参
+F:\bilibilillfc\llfcchat\chatview.cpp(86,38): warning C4100: “min”: 未引用的形参
+  conuseritem.cpp
+F:\bilibilillfc\llfcchat\chatpage.cpp(29,40): warning C4100: “event”: 未引用的形参
+  customizeedit.cpp
+  findfaildlg.cpp
+  findsuccessdlg.cpp
+  friendlabel.cpp
+  global.cpp
+  grouptipitem.cpp
+F:\bilibilillfc\llfcchat\contactuserlist.cpp(87,13): warning C4189: “str_i”: 局部变量已初始化但不引用
+  httpmgr.cpp
+  listitembase.cpp
+  loadingdlg.cpp
+  logindialog.cpp
+  main.cpp
+  mainwindow.cpp
+  messagetextedit.cpp
+  picturebubble.cpp
+F:\bilibilillfc\llfcchat\listitembase.cpp(20,44): warning C4100: “event”: 未引用的形参
+  registerdialog.cpp
+  resetdialog.cpp
+  searchlist.cpp
+  statewidget.cpp
+  tcpmgr.cpp
+  textbubble.cpp
+  timerbtn.cpp
+  userdata.cpp
+  usermgr.cpp
+F:\bilibilillfc\llfcchat\statewidget.cpp(73,37): warning C4100: “show”: 未引用的形参
+F:\bilibilillfc\llfcchat\statewidget.cpp(78,43): warning C4100: “event”: 未引用的形参
+  qrc_rc.cpp
+  moc_adduseritem.cpp
+  moc_applyfriend.cpp
+  moc_applyfrienditem.cpp
+  moc_applyfriendlist.cpp
+  moc_applyfriendpage.cpp
+  moc_bubbleframe.cpp
+  moc_chatdialog.cpp
+  moc_chatitembase.cpp
+  moc_chatpage.cpp
+  moc_chatuserlist.cpp
+  moc_chatuserwid.cpp
+  moc_chatview.cpp
+  moc_clickedbtn.cpp
+  moc_clickedlabel.cpp
+  moc_clickedoncelabel.cpp
+  moc_contactuserlist.cpp
+  moc_conuseritem.cpp
+  moc_customizeedit.cpp
+  moc_findfaildlg.cpp
+  moc_findsuccessdlg.cpp
+  moc_friendlabel.cpp
+  moc_grouptipitem.cpp
+  moc_httpmgr.cpp
+  moc_listitembase.cpp
+  moc_loadingdlg.cpp
+  moc_logindialog.cpp
+  moc_mainwindow.cpp
+  moc_messagetextedit.cpp
+  moc_picturebubble.cpp
+  moc_registerdialog.cpp
+  moc_resetdialog.cpp
+  moc_searchlist.cpp
+  moc_statewidget.cpp
+  moc_tcpmgr.cpp
+  moc_textbubble.cpp
+  llfcchat.vcxproj -> F:\bilibilillfc\llfcchat\bin\llfcchat.exe
+  copy /Y ".\config.ini" ".\.\bin" & xcopy /Y /E /I ".\static" ".\.\bin\static\"
+  已复制         1 个文件。
+  .\static\yrdf.jpg
+  复制了 1 个文件
