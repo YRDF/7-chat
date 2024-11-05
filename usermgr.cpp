@@ -73,6 +73,38 @@ void UserMgr::AppendApplyList(QJsonArray array)
     }
 }
 
+bool UserMgr::CheckFriendById(int uid)
+{
+    auto iter = _friend_map.find(uid);
+    if(iter == _friend_map.end()){
+        return false;
+    }
+
+    return true;
+}
+
+void UserMgr::AddFriend(std::shared_ptr<AuthRsp> auth_rsp)
+{
+    auto friend_info = std::make_shared<FriendInfo>(auth_rsp);
+    _friend_map[friend_info->_uid] = friend_info;
+}
+
+void UserMgr::AddFriend(std::shared_ptr<AuthInfo> auth_info)
+{
+    auto friend_info = std::make_shared<FriendInfo>(auth_info);
+    _friend_map[friend_info->_uid] = friend_info;
+}
+
+std::shared_ptr<FriendInfo> UserMgr::GetFriendById(int uid)
+{
+    auto find_it = _friend_map.find(uid);
+    if(find_it == _friend_map.end()){
+        return nullptr;
+    }
+
+    return *find_it;
+}
+
 UserMgr::UserMgr()
 {
 
