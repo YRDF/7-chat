@@ -145,12 +145,15 @@ void TcpMgr::initHandlers()
         UserMgr::GetInstance()->SetUserInfo(user_info);
         UserMgr::GetInstance()->SetToken(jsonObj["token"].toString());
 
-//        UserMgr::GetInstance()->SetUid(jsonObj["uid"].toInt());
-//        UserMgr::GetInstance()->SetName(jsonObj["name"].toString());
-//        UserMgr::GetInstance()->SetToken(jsonObj["token"].toString());
         if(jsonObj.contains("apply_list")){
             UserMgr::GetInstance()->AppendApplyList(jsonObj["apply_list"].toArray());
         }
+
+        //添加好友列表
+        if (jsonObj.contains("friend_list")) {
+            UserMgr::GetInstance()->AppendFriendList(jsonObj["friend_list"].toArray());
+        }
+
         emit sig_swich_chatdlg();
     });
 
